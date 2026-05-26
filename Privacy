@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Privacy Policy · Simplit</title>
+    <meta name="description" content="How Simplit handles your data.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <nav class="top">
+            <a href="index.html">Home</a>
+            <a href="support.html">Support</a>
+            <a href="privacy.html" class="active">Privacy</a>
+            <a href="terms.html">Terms</a>
+        </nav>
+
+        <header>
+            <p class="eyebrow">Legal</p>
+            <h1>Privacy Policy</h1>
+            <p class="subtitle">Last updated: 26 May 2026</p>
+        </header>
+
+        <div class="card">
+            <p>This policy explains what Simplit ("we", "us", "the app") collects, where your data lives, and the choices you have. It applies to the Simplit iOS app published by <strong>Saloni Khobragade</strong>.</p>
+            <p>The short version: <strong>your expense data stays on your device and in your private iCloud.</strong> We don't collect it, sell it, or send it to advertisers.</p>
+        </div>
+
+        <div class="card">
+            <h2>What we store</h2>
+            <ul>
+                <li><strong>Expenses, reminders, recurring items, and notes</strong> you enter into the app.</li>
+                <li><strong>App settings</strong> such as appearance, notification preferences, and reminder time.</li>
+                <li><strong>Streak and check-in history</strong> derived from your activity.</li>
+            </ul>
+            <p>All of this is stored on your device using Apple's local database. If you're signed in to iCloud, it's also mirrored to your private iCloud container so it syncs across your devices.</p>
+        </div>
+
+        <div class="card">
+            <h2>Where your data lives</h2>
+            <h3>On your device</h3>
+            <p>The primary copy lives on your iPhone or iPad in app-private storage. Uninstalling the app removes the local copy.</p>
+
+            <h3>In your iCloud (optional)</h3>
+            <p>If iCloud is available and enabled on your device, your data syncs through your private CloudKit container. We — the developers — cannot see or access this data. Apple's <a href="https://www.apple.com/legal/privacy/">privacy terms</a> apply.</p>
+
+            <h3>Notifications</h3>
+            <p>Reminders are scheduled locally on your device. The contents of a reminder do not leave your device.</p>
+        </div>
+
+        <div class="card">
+            <h2>Assistant features (Let's Talk)</h2>
+            <p>If you use Simplit's assistant features (sometimes called "Let's Talk"), the prompts you send may be transmitted to our hosted AI service to generate a reply. We process these messages only to produce a response and to debug failures. We do not use them to train models.</p>
+            <p>If your build does not have an assistant server configured, assistant features are disabled and no data leaves your device for this purpose.</p>
+        </div>
+
+        <div class="card">
+            <h2>Purchases</h2>
+            <p>Premium subscriptions and one-time purchases are processed by Apple through the App Store. We receive purchase receipts so we can unlock premium features on your account. We do not see your payment details.</p>
+        </div>
+
+        <div class="card">
+            <h2>Diagnostics &amp; analytics</h2>
+            <p>Simplit may collect minimal, anonymous diagnostics (such as crash reports and feature usage counts) to keep the app stable. This is configurable per build and never includes the contents of your expenses or messages.</p>
+            <p>If you have opted out of "Share with App Developers" in iOS Settings → Privacy &amp; Security → Analytics, Apple will not share crash logs with us.</p>
+        </div>
+
+        <div class="card">
+            <h2>What we do not do</h2>
+            <ul>
+                <li>We do not sell your data.</li>
+                <li>We do not run third-party ad networks inside the app.</li>
+                <li>We do not share your expense data with advertisers, data brokers, or marketing partners.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Children</h2>
+            <p>Simplit is not directed to children under 13 (or the equivalent age in your region). We do not knowingly collect data from children.</p>
+        </div>
+
+        <div class="card">
+            <h2>Your choices</h2>
+            <ul>
+                <li><strong>Disable iCloud sync</strong> — turn off iCloud for Simplit in iOS Settings → [Your Apple ID] → iCloud → Apps Using iCloud.</li>
+                <li><strong>Disable notifications</strong> — iOS Settings → Simplit → Notifications.</li>
+                <li><strong>Delete your data</strong> — uninstalling Simplit removes the local copy. To also remove the iCloud copy, sign in to <a href="https://www.icloud.com/">iCloud.com</a> or use iOS Settings → iCloud → Manage Storage.</li>
+                <li><strong>Data request</strong> — email us at <a href="mailto:saloni.khobragade@icloud.com">saloni.khobragade@icloud.com</a> for any data subject request (access, correction, deletion).</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Changes to this policy</h2>
+            <p>If we make material changes we'll update the date at the top of this page and, where appropriate, surface a notice in the app. Continued use after changes means you accept the updated policy.</p>
+        </div>
+
+        <div class="card">
+            <h2>Contact</h2>
+            <p>Questions about this policy? Email <a href="mailto:saloni.khobragade@icloud.com">saloni.khobragade@icloud.com</a>.</p>
+            <p class="muted"> Saloni Khobragade · India</p>
+        </div>
+
+        <footer>
+            <span>&copy; <span id="year"></span> Simplit</span>
+            <span><a href="index.html">Back to home</a></span>
+        </footer>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
