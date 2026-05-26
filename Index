@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Simplit</title>
+    <meta name="description" content="Calm daily expense tracking and reminders.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <p class="eyebrow">Simplit</p>
+            <h1>Calm daily expense tracking.</h1>
+            <p class="subtitle">A simple iOS app for tracking spend, no-spend days, and recurring reminders.</p>
+        </header>
+
+        <div class="tiles">
+            <a class="tile" href="support.html">
+                <p class="tile-title">Help &amp; Support</p>
+                <p class="tile-detail">FAQ, troubleshooting, and how to reach us.</p>
+            </a>
+            <a class="tile" href="privacy.html">
+                <p class="tile-title">Privacy Policy</p>
+                <p class="tile-detail">What we collect, store, and never share.</p>
+            </a>
+            <a class="tile" href="terms.html">
+                <p class="tile-title">Terms of Use</p>
+                <p class="tile-detail">The rules for using Simplit.</p>
+            </a>
+        </div>
+
+        <footer>
+            <span>&copy; <span id="year"></span> Simplit. All rights reserved.</span>
+            <span><a href="mailto:saloni.khobragade@icloud.com">saloni.khobragade@icloud.com</a></span>
+        </footer>
+    </div>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
